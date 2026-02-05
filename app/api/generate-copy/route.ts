@@ -13,7 +13,7 @@ export async function POST(req: Request) {
       );
     }
 
-    const apiKey = process..OPENAI_API_KEY;
+    const apiKey = process.env.OPENAI_API_KEY;
     if (!apiKey) {
       return NextResponse.json(
         { ok: false, error: "OPENAI_API_KEY not set" },
