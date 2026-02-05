@@ -1,19 +1,8 @@
-import { ReactNode } from 'react';
-
-interface SectionHeadingProps {
-  eyebrow?: string;
-  title: string;
-  subtitle?: string;
-  children?: ReactNode;
-}
-
-export function SectionHeading({ eyebrow, title, subtitle, children }: SectionHeadingProps) {
+export default function SectionHeading({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
-    <div>
-      {eyebrow ? <p>{eyebrow}</p> : null}
-      <h2>{title}</h2>
-      {subtitle ? <p>{subtitle}</p> : null}
-      {children}
+    <div className="mb-8">
+      <h2 className="text-3xl font-semibold">{title}</h2>
+      {subtitle ? <p className="mt-2 text-sm opacity-80">{subtitle}</p> : null}
     </div>
   );
 }
