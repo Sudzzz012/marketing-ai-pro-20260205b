@@ -1,7 +1,7 @@
-import { Container } from '../../components/Container';
-import { SectionHeading } from '../../components/SectionHeading';
-import { MotionBlock } from '../../components/Motion';
-import { Button } from '../../components/Button';
+import { Container } from '../components/Container';
+import { SectionHeading } from '../components/SectionHeading';
+import { MotionBlock } from '../components/Motion';
+import { Button } from '../components/Button';
 
 const tiers = [
   {

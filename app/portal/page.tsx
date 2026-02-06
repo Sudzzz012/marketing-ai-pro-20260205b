@@ -1,7 +1,7 @@
-import { Container } from '../../components/Container';
-import { SectionHeading } from '../../components/SectionHeading';
-import { Button } from '../../components/Button';
-import { MotionBlock } from '../../components/Motion';
+import { Container } from '../components/Container';
+import { SectionHeading } from '../components/SectionHeading';
+import { Button } from '../components/Button';
+import { MotionBlock } from '../components/Motion';
 
 export default function PortalPage() {
   return (
