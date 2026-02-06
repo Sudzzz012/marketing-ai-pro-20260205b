@@ -1,5 +1,5 @@
-import { Container } from '../../components/Container';
-import { SectionHeading } from '../../components/SectionHeading';
+import { Container } from '../components/Container';
+import { SectionHeading } from '../components/SectionHeading';
 
 export default function PrivacyPage() {
   return (

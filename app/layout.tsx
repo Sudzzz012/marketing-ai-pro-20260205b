@@ -1,9 +1,9 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Header } from '../components/Header';
-import { Footer } from '../components/Footer';
-import { NeuralBackground } from '../components/NeuralBackground';
-import { Providers } from '../components/Providers';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { NeuralBackground } from './components/NeuralBackground';
+import { Providers } from './components/Providers';
 
 export const metadata: Metadata = {
   title: {
